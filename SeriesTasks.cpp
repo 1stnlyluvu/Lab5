@@ -1,4 +1,6 @@
-﻿#include "SeriesTasks.h" // Подключаем объявления функций лабораторной.
+﻿#include "pch.h" // Предкомпилированный заголовок проекта Visual Studio.
+#include <vector> // std::vector — динамический массив.
+#include <utility> // std::pair — пара значений.
 
 #include <cmath> // Математические функции, здесь нужна std::modf.
 #include <iterator> // Стандартные итераторы, здесь нужен std::back_inserter.
